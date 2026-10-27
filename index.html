@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>森の研究室</title>
+    <meta
+      name="description"
+      content="代々木上原の焙煎カフェ。お子さま連れ歓迎。キッズドリンクと焼き菓子で、家族のひとときを。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Noto+Sans+JP:wght@400;500;600&family=Shippori+Mincho:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#top">森のカフェ</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">メニュー</span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#story">私たちについて</a>
+        <a href="#menu">メニュー</a>
+        <a href="#space">空間</a>
+        <a href="#visit">ご来店</a>
+        <a class="nav-cta" href="#reserve">席を予約</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media">
+          <img
+            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1800&q=80"
+            alt="窓辺でコーヒーを淹れる様子"
+          />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Yoyogi-Uehara · since 2018</p>
+          <h1>家族で立ち寄る、<br />やさしい森の時間。</h1>
+          <p class="lede">
+            お子さま連れのお客様もご利用いただけます。
+            キッズドリンクとご家族でお分けいただける焼き菓子をご用意し、親子のひとときをゆったりお過ごしいただけるカフェです。
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#reserve">席を予約する</a>
+            <a class="btn btn-ghost" href="#menu">今日のメニュー</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>Single Origin · Ethiopia Guji</span>
+          <span>Seasonal Galette</span>
+          <span>Pour Over</span>
+          <span>Kids Drink Welcome</span>
+          <span>House Blend “Mori”</span>
+          <span>Single Origin · Ethiopia Guji</span>
+          <span>Seasonal Galette</span>
+          <span>Pour Over</span>
+          <span>Kids Drink Welcome</span>
+          <span>House Blend “Mori”</span>
+        </div>
+      </section>
+
+      <section id="story" class="story">
+        <div class="story-image">
+          <img
+            src="https://images.unsplash.com/photo-1442512595331-e89e7384470d?auto=format&fit=crop&w=1200&q=80"
+            alt="焙煎されたコーヒー豆"
+          />
+        </div>
+        <div class="story-text">
+          <p class="eyebrow">Our story</p>
+          <h2>小さな窯で、<br />丁寧に火を入れる。</h2>
+          <p>
+            森のカフェは、代々木上原の住宅街にひっそりと開いた焙煎カフェです。
+            店名は、葉のあいだから落ちる光と、静かな森の気配から取りました。
+          </p>
+          <p>
+            豆は生産者の顔が見えるロットだけを扱い、焙煎は週に一度、店奥の小型窯で行います。
+            抽出はハンドドリップが基本。忙しい朝でも、一杯にきちんと時間をかけています。
+          </p>
+          <dl class="facts">
+            <div>
+              <dt>Roaster</dt>
+              <dd>浅煎りを基調に、果実味を残す</dd>
+            </div>
+            <div>
+              <dt>Bake</dt>
+              <dd>毎朝7時、厨房で焼き上げ</dd>
+            </div>
+            <div>
+              <dt>Seat</dt>
+              <dd>カウンター8席 / 窓際テーブル6席</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="menu" class="menu">
+        <div class="section-head">
+          <p class="eyebrow">Menu</p>
+          <h2>親子で選べる、今日のメニュー。</h2>
+          <p>キッズメニューあり。価格は税込。アレルギー表示は店頭でもご案内します。</p>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <h3>Drink</h3>
+            <ul>
+              <li><span>ハンドドリップ（季節のシングル）</span><em>680</em></li>
+              <li><span>ハウスブレンド “Mori”</span><em>620</em></li>
+              <li><span>カフェラテ</span><em>650</em></li>
+              <li><span>ほうじ茶ラテ</span><em>640</em></li>
+              <li><span>季節のコールドブリュー</span><em>700</em></li>
+            </ul>
+          </article>
+          <article class="menu-card featured">
+            <p class="badge">Today</p>
+            <h3>Seasonal</h3>
+            <p class="season-copy">
+              秋のエチオピア グジ。白桃とジャスミンの香り、後味は紅茶のように長く残ります。
+            </p>
+            <ul>
+              <li><span>Guji Natural</span><em>780</em></li>
+              <li><span>洋梨とカルダモンのガレット</span><em>520</em></li>
+              <li><span>ほうじ茶フィナンシェ</span><em>380</em></li>
+            </ul>
+          </article>
+          <article class="menu-card">
+            <h3>Bake</h3>
+            <ul>
+              <li><span>クロワッサン</span><em>420</em></li>
+              <li><span>バターのパウンドケーキ</span><em>480</em></li>
+              <li><span>季節のタルト</span><em>580</em></li>
+              <li><span>自家製グラノーラボウル</span><em>980</em></li>
+              <li><span>スープとパンのセット</span><em>1,280</em></li>
+            </ul>
+          </article>
+          <article class="menu-card kids">
+            <h3>Kids</h3>
+            <p class="kids-copy">お子さま向け。ミルク・温かいものへの変更もご相談ください。</p>
+            <ul>
+              <li><span>キッズココア</span><em>380</em></li>
+              <li><span>りんごジュース</span><em>320</em></li>
+              <li><span>小さなクロワッサン</span><em>280</em></li>
+              <li><span>親子シェア焼き菓子プレート</span><em>980</em></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="space" class="space">
+        <div class="section-head">
+          <p class="eyebrow">Space</p>
+          <h2>光の向きを、席づくりの基準に。</h2>
+        </div>
+        <div class="gallery">
+          <figure class="tall">
+            <img
+              src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=900&q=80"
+              alt="木のカウンターとコーヒーカップ"
+            />
+            <figcaption>朝8時。カウンターは焙煎の香りが残っています。</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80"
+              alt="カフェのテーブル席"
+            />
+            <figcaption>窓際は午前中がいちばん静かです。</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=80"
+              alt="ラテと豆"
+            />
+            <figcaption>ミルクは近郊の低温殺菌牛乳。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="visit" class="visit">
+        <div class="visit-info">
+          <p class="eyebrow">Visit</p>
+          <h2>代々木上原から徒歩6分。</h2>
+          <p>
+            住宅街の角、白い看板が目印です。テイクアウトもご利用いただけます。
+            ノートPCのご利用は、平日11時以降でお願いしています。
+          </p>
+          <ul class="hours">
+            <li><span>火 — 金</span><strong>8:00 – 18:00</strong></li>
+            <li><span>土・日</span><strong>9:00 – 17:00</strong></li>
+            <li><span>月曜</span><strong>定休日</strong></li>
+          </ul>
+          <address>
+            〒151-0064<br />
+            東京都渋谷区上原2-12-8<br />
+            03-0000-0000
+          </address>
+        </div>
+        <aside id="reserve" class="reserve">
+          <h3>席の予約</h3>
+          <p>2名様以上の窓際席は、前日までのご予約をおすすめしています。</p>
+          <form id="reserve-form">
+            <label>
+              お名前
+              <input type="text" name="name" required autocomplete="name" />
+            </label>
+            <label>
+              人数
+              <select name="guests" required>
+                <option value="1">1名</option>
+                <option value="2" selected>2名</option>
+                <option value="3">3名</option>
+                <option value="4">4名</option>
+                <option value="5">5名</option>
+                <option value="6">6名（窓際テーブル）</option>
+              </select>
+            </label>
+            <label>
+              日時
+              <input type="datetime-local" name="datetime" required />
+            </label>
+            <button class="btn btn-primary" type="submit">予約を送る</button>
+            <p class="form-note">送信はデモです。店舗へは届きません。</p>
+          </form>
+          <p class="form-success" hidden>ありがとうございます。ご予約を受け付けました。</p>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>森のカフェ</p>
+      <p>© 2026 森のカフェ. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
